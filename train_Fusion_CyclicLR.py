@@ -18,8 +18,6 @@ def get_model(model_name, num_class):
         from model_fusion.FaceBagNet_model_A_SEFusion import FusionNet
     elif model_name == 'model_B':
         from model_fusion.FaceBagNet_model_B_SEFusion import FusionNet
-    elif model_name == 'resnet18_facebagnet':
-        from model_fusion.model_baseline_Fusion import FusionNet
 
     net = FusionNet(num_class=num_class)
     return net
