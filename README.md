@@ -1,5 +1,5 @@
-# Face-Anti-spoofing
-● 以FaceBagNet模型为主线，通过二分类实现真实人脸和攻击人脸的识别。
+# Face Anti-spoofing Attack Detection
+● 以FaceBagNet模型为主线，通过二分类实现真实人脸和攻击人脸的检测。
 
 ### 下载CASIA-SURF数据集
 链接：https://pan.baidu.com/s/1o3E_TWAoVENMWAMqZr5csw 提取码d55a
