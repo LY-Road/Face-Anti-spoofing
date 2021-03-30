@@ -2,11 +2,11 @@
 ● 以FaceBagNet模型为主线，通过二分类实现真实人脸和攻击人脸的检测。
 
 ### 下载CASIA-SURF数据集
-链接：https://pan.baidu.com/s/1o3E_TWAoVENMWAMqZr5csw 提取码d55a
+链接：https://pan.baidu.com/s/1o3E_TWAoVENMWAMqZr5csw 提取码d55a  
 将数据集放在data文件夹下。
 
 ### 下载预训练权重
-单模态color (model_A)：
+单模态color (model_A)：  
 三模态fusion(model_A)：
 
 ### 训练
