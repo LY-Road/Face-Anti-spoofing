@@ -2,7 +2,7 @@
 ● 以FaceBagNet模型为主线，通过二分类实现真实人脸和攻击人脸的检测。
 
 ### 下载CASIA-SURF数据集
-链接：https://pan.baidu.com/s/1o3E_TWAoVENMWAMqZr5csw 提取码d55a  
+链接：https://pan.baidu.com/s/1o3E_TWAoVENMWAMqZr5csw  提取码：d55a  
 将数据集放在data文件夹下。
 
 ### 下载预训练权重
@@ -16,6 +16,7 @@
 #### 1）单模态
 train model_A with color imgs， patch size 48：  
 > $ CUDA_VISIBLE_DEVICES=0 python3 train_CyclicLR.py --model=model_A --image_mode=color --image_size=48  
+
 可以通过修改--model更换模型，可以通过修改--image_mode更换模态。
 #### 2）三模态 
 train model A fusion model with multi-modal imgs， patch size 48：  
