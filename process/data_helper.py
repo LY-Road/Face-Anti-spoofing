@@ -2,7 +2,7 @@ import os
 import random
 from utils import *
 
-DATA_ROOT = './data/CASIA-SURF/'
+DATA_ROOT = './CASIA-SURF/phase1'
 
 TRN_IMGS_DIR = DATA_ROOT + '/Training/'
 TST_IMGS_DIR = DATA_ROOT + '/Val/'
