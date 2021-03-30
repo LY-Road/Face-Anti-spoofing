@@ -30,7 +30,7 @@ infer model A fusion model with multi-modal imgs， patch size 48：
 > $ CUDA_VISIBLE_DEVICES=0 python train_Fusion_CyclicLR.py --mode=infer_test --model=model_A --image_size=48  
 
 ### 其他解释
->- 单模态的facebagnet的训练代码: train_CyclicLR.py   
+ - 单模态的facebagnet的训练代码: train_CyclicLR.py   
  -  三模态的facebagnet的训练代码: train_Fusion_CyclicLR.py  
  -  数据准备代码所在文件夹：process  
  -  模型准备代码所在文件夹：model,model_fusion   
