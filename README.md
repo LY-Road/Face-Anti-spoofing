@@ -2,7 +2,7 @@
 ● 以FaceBagNet模型为主线，通过二分类实现真实人脸和攻击人脸的检测。
 
 500个epochs：
-mode|model|acer
+mode|model|global min acer
 ---|--|--
 color|model_A|0.0666
 fusion|model_A|0.0025
