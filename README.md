@@ -43,7 +43,8 @@ infer model A fusion model with multi-modal imgs， patch size 48：
  -  三模态的facebagnet的训练代码: train_Fusion_CyclicLR.py  
  -  训练命令样例：run.sh
  -  数据准备代码所在文件夹：process  
- -  模型准备代码所在文件夹：model,model_fusion   
+ -  模型准备代码所在文件夹：model,model_fusion  
+ -  周期余弦退火算法实现代码所在文件夹：loss 
  -  输出log文件所在文件夹：models  
  -  指标计算代码：metric.py,submission.py  
  -  其他有用函数收集文件：utils.py  
