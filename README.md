@@ -34,7 +34,7 @@ infer model_A with color imgs， patch size 48：
 可以通过修改--model更换模型，可以通过修改--image_mode更换模态。
 #### 2) 三模态
 infer model A fusion model with multi-modal imgs， patch size 48： 
-> $ CUDA_VISIBLE_DEVICES=0 python train_Fusion_CyclicLR.py --mode=infer_test --model=model_A --image_size=48  
+> $ CUDA_VISIBLE_DEVICES=0 python3 train_Fusion_CyclicLR.py --mode=infer_test --model=model_A --image_size=48  
 
 可以通过修改--model更换模型。
 
