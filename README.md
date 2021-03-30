@@ -17,17 +17,25 @@ train model_A with color imgs， patch size 48：
 train model A fusion model with multi-modal imgs， patch size 48：  
 > $ CUDA_VISIBLE_DEVICES=0 python3 train_Fusion_CyclicLR.py --model=model_A --image_size=48  
 
+可以通过修改--model更换模型。
+
 ### 测试
 #### 1）单模态
 infer model_A with color imgs， patch size 48：  
 > $ CUDA_VISIBLE_DEVICES=0 python3 train_CyclicLR.py --mode=infer_test --model=model_A --image_mode=color --image_size=48  
+
+
+可以通过修改--model更换模型，可以通过修改--image_mode更换模态。
 #### 2) 三模态
 infer model A fusion model with multi-modal imgs， patch size 48： 
 > $ CUDA_VISIBLE_DEVICES=0 python train_Fusion_CyclicLR.py --mode=infer_test --model=model_A --image_size=48  
 
+可以通过修改--model更换模型。
+
 ### 其他解释
- - 单模态的facebagnet的训练代码: train_CyclicLR.py   
+ -  单模态的facebagnet的训练代码: train_CyclicLR.py   
  -  三模态的facebagnet的训练代码: train_Fusion_CyclicLR.py  
+ -  训练命令样例：run.sh
  -  数据准备代码所在文件夹：process  
  -  模型准备代码所在文件夹：model,model_fusion   
  -  输出log文件所在文件夹：models  
