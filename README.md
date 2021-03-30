@@ -5,10 +5,6 @@
 链接：https://pan.baidu.com/s/1o3E_TWAoVENMWAMqZr5csw  提取码：d55a  
 将数据集放在data文件夹下。
 
-### 下载预训练权重
-单模态color (model_A)：  
-三模态fusion(model_A)：
-
 ### 修改变量
 修改process/data_helper中关于数据地址的变量。
 
