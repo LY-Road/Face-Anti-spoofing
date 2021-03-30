@@ -1,6 +1,12 @@
 # Face Anti-spoofing Attack Detection
 ● 以FaceBagNet模型为主线，通过二分类实现真实人脸和攻击人脸的检测。
 
+500个epochs：
+mode|model|acer
+---|--|--
+color|model_A|0.0666
+fusion|model_A|0.0025
+
 ### 下载CASIA-SURF数据集
 链接：https://pan.baidu.com/s/1o3E_TWAoVENMWAMqZr5csw  提取码：d55a  
 
