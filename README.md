@@ -10,7 +10,7 @@ fusion|model_A|0.0025
 ### 下载CASIA-SURF数据集
 链接：https://pan.baidu.com/s/1o3E_TWAoVENMWAMqZr5csw  提取码：d55a  
 ### 预训练权重
-color-model_A ：https://pan.baidu.com/s/1LIsciTWxL3lqRxWURT4lyw  提取码：k9t7
+color-model_A ：https://pan.baidu.com/s/1LIsciTWxL3lqRxWURT4lyw  提取码：k9t7  
 fusion-model_A ：https://pan.baidu.com/s/1HacrX8qQxNpHkYljCZXB6g 提取码：jj9q
 
 ### 修改变量
